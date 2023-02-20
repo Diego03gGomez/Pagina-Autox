@@ -1,0 +1,661 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.contenedor1{
+   /* background-color: brown;*/
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+
+#fondo1{
+    background: linear-gradient(to right, #091929d1, #4ca1afd4), url(/imagenes/imgfondo.jpg);
+
+
+   
+    background-size: cover;
+    background-position: center;
+display: flex;
+align-items: center;
+height: 65vh;
+
+
+
+
+}
+
+.contenedor2{
+   /* background-color: brown;*/
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.contenedor2 h1{
+    color: white;
+    font-size: 100px;
+  
+}
+
+
+.contenedor2 h2{
+    color: white;
+    font-size: 30px;
+}
+
+
+.contenedor2 a button{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: orange;
+    border-color: orange;
+    border-style: solid;
+    width: 20%;
+    font-weight: bold;
+}
+
+
+
+
+/*FONDO2*/
+#fondo2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 100%;
+    background-color: #80808012;
+}
+
+
+.contenedor3{
+   /* background-color: brown;*/
+    text-align: center;
+}
+
+.contenedor3 p{
+    font-size: 20px;
+}
+
+
+.contenedor4{
+  /*  background-color: brown;*/
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tarjetas{
+    padding: 10px;
+    background-color: white;
+    width: 27%;
+    margin: 20px auto;
+}
+
+.imagen_tarjeta img{
+    width: 100%;
+}
+
+
+
+.tarjetas a{
+    text-decoration: none;
+    color: cornflowerblue;
+font-weight: bold;
+}
+
+
+.contenedor3 a button{
+    background-color: orange;
+    border-color: orange;
+    border-style: solid;
+    color: white;
+padding: 10px 50px;
+
+}
+
+/*CONTENEDOR5*/
+.contenedor5{
+ /*   background-color: brown;*/
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.div_opiniones{
+   /* background-color: blue;*/
+    width: 50%;
+}
+
+.div_reparacion{
+  
+    width: 50%;
+}
+.div_reparacion img{
+   
+    width: 100%;
+}
+
+.opinion{
+   /* background-color: green;*/
+    margin: 30px 0;
+}
+
+.opinion p{
+    font-size: 20px;
+}
+
+/*FONDO4*/
+#fondo4{
+    background: linear-gradient(to right, #0f324ab3, #061524b0),  url(/imagenes/imgfondo2.jpg);
+
+
+  /*  background-image: url(imgfondo2.jpg);*/
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     align-items: center;
+     height: 55vh;
+}
+
+.contenedor_fondo4{
+   /* background-color: brown;*/
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.numeros{
+    text-align: center;
+  /*  background-color: green;*/
+}
+
+.numeros h1{
+    font-weight:bold;
+    font-size: 70px;
+    color: white;
+}
+
+.numeros h3{
+    color: orange;
+    font-weight: bold;
+}
+
+.contenedor_fondo5{
+  /*  background-color: brown;*/
+    display: flex;
+
+  /*  justify-content: space-between;*/
+    margin: auto;
+    width: 90%;
+}
+
+
+.tarjetas_fondo5{
+    background-color: white;
+    width: 30%;
+    padding: 10px;
+  /*  background-color: green;*/
+    margin: auto;
+}
+
+.imagen_fondo6 img{
+    width: 100%;
+}
+
+.tarjetas_fondo5 p{
+    color: grey;
+    font-weight: bold;
+}
+
+
+.tarjetas_fondo5 h2{
+    color: grey;
+}
+
+
+#fondo5{
+    background-color: #8080801c;
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#fondo_final{
+    background: linear-gradient(to right, #1c4568f2, #185a9dd1), url(/imagenes/imgfinal.jpg);
+
+/*
+    background-image: url(imgfinal.jpg);*/
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.contenedor_final{
+    height: 100%;
+   /*background-color: brown;*/
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.blanco{
+    color: white;
+    font-weight: normal;
+    
+}
+ 
+.blanco2{
+    color: white;
+    font-weight: normal;
+    font-size: 55px;
+}
+
+.azul{
+    color: #00adff;
+}
+
+
+.contenedor_final h3{
+    color: white;
+    font-size: 25px;
+}
+
+.contenedor_final a button{
+    background-color: orange;
+    border-color: orange;
+    border-style: solid;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+/*FOOTER*/
+
+.contenedor_footer{
+
+    background-color: black;
+    margin: auto;
+    width: 90%;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.contenedor_footer h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+.redes{display: flex;
+    width: 20%;
+}
+
+
+.redes .icono_redes{
+    font-size: 30px ;
+    margin: 0 20px
+}
+
+
+
+footer{
+    background-color: black;
+}
+
+.icono_menu{
+    font-size: 30px;
+    display: none;
+}
+
+
+
+/* EFECTO HOVER DE LAS IMAGENES*/
+.texto{
+    background-color:#0919298a;
+    color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.imagen_tarjeta{
+position: relative;
+}
+.texto2{
+    background-color: #0919298a;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.div_reparacion{
+    position: relative;
+}
+
+
+#fondo3{
+    height: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+#boton_hover{
+    transition: all 0.90s;
+    font-weight: bold;
+}
+
+#boton_hover:hover{
+transition: all 0.90s;
+
+
+    background-color: #061524b0;
+    border-color: #061524b0;
+    border-style: solid;
+    color: orange;
+    font-weight: bold;
+}
+
+
+
+
+/*BARRA NAV*/
+.barra_nav{
+    background-color:#42a6b6;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+
+.barra_nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.barra_nav ul li{
+   
+  /*  background-color:#42a6b6;*/
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.barra_nav ul li:hover{
+transition: all 0.90s;
+
+    background-color:#000036 ;
+    color: #42a6b6;
+}
+
+
+
+
+
+.barra_nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.barra_nav{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px){
+    nav{
+       
+       /* background-color:#0f324ab3 ;*/
+       background-color:#4ca1afd4;
+       position: absolute;
+       width: 90%;
+       margin: auto;
+       top: 70px;
+display: none;
+flex-direction: column;
+text-align: center;
+    }
+
+nav a{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    padding: 20px;
+color: #0f324ab3 ;
+margin: 10px 0;
+}
+
+nav a:hover{
+    background-color:#0f324ab3;
+    color: white;
+    
+}
+
+
+
+
+#fondo1{
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.contenedor2{
+    width: 90%;
+}
+.contenedor2 a button{
+    width: 40%;
+}
+
+
+
+.contenedor4{
+    flex-direction: column;
+}
+
+.tarjetas{
+    width: 100%;
+}
+
+
+.contenedor3 a button{
+    background-color: orange;
+    border-color: orange;
+    border-style: solid;
+    color: white;
+text-align: center;
+padding: 10px 20px;
+    width: 30%;
+
+}
+
+.contenedor5{
+   width: 85%;
+    flex-direction: column;
+}
+
+.div_opiniones{
+    width: 100%;
+}
+
+.opinion{
+    
+    margin: 50px 0;
+    text-align: center;
+}
+
+.div_reparacion{
+    width: 100%;
+}
+
+#fondo4{
+    height: 100%;
+}
+
+.contenedor_fondo4{
+    flex-direction: column;
+}
+
+.numeros{
+    margin: 0px 0;
+    text-align: center;
+   /* background-color: green;*/
+}
+
+.contenedor_fondo4{
+   /* background-color: brown;*/
+    margin: auto;
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor_fondo5{
+    width: 80%;
+    flex-direction: column;
+}
+
+.tarjetas_fondo5{
+    margin: 20px 0;
+    width: 100%;
+}
+
+
+
+/*FOOTER*/
+
+.contenedor_footer{
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.redes{
+    display: flex;
+   
+    width: 100%;
+  
+}
+
+
+.redes .icono_redes{
+    font-size: 30px ;
+    margin: auto;
+}
+
+
+
+footer{
+    padding-top: 10px;
+}
+
+.icono_menu{
+    display: initial;
+    cursor: pointer;
+}
+
+
+
+
+
+}
+
+
+
+
+@media (max-width:768px){
+
+#boton_hover{
+    width: 85%;
+}
+
+
+}
+
